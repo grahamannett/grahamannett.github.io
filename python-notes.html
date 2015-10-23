@@ -35,6 +35,20 @@
               <li>pip3 install -e .</li>
           </ol>
                   </p>
+        <hr>
+        <h2>using pandas to change object feature columns to numerical category columns</h2>
+        <p>useful for multiple reasons (i.e. save visual space when viewing, lots of category data is indecipherable, MOSTLY for using sklearn features and not having to dummy variables which can get extremely computationally expensive)
+            <br>
+            <a href="http://matthewrocklin.com/blog/work/2015/03/16/Fast-Serialization/">another reason why cat is better than object dtypes for pandas</a>
+            <br>
+            <pre>
+import pandas as pd
+
+df = pd.read_csv() # or whatever
+for x in df.dtypes[df.dtypes == 'object'].index:
+    df[x] = (df[x].astype('category')).cat.codes
+            </pre>
+        </p>
     
           
        
