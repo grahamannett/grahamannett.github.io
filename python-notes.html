@@ -28,7 +28,7 @@
           <br>
           the best way to install is create virtualenv and project folder:
               <ol>
-              <li>git clone https://github.com/dmlc/xgboost</li>
+              <li>git clone --recursive https://github.com/dmlc/xgboost</li>
               <li>cd xgboost</li>
               <li>bash build.sh</li>
               <li>cd python-package</li>
@@ -49,9 +49,9 @@ for x in df.dtypes[df.dtypes == 'object'].index:
     df[x] = (df[x].astype('category')).cat.codes
             </pre>
         </p>
-    
-          
-       
+
+
+
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
