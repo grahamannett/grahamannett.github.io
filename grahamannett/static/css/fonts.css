@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+h1 {
+  font-size: 2.8em;
+}
+
+body {
+  line-height: 1.25;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #000;
+}

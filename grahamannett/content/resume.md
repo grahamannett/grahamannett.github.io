@@ -1,0 +1,10 @@
+<iframe src="http://grahamannett.me/resume.pdf" style="width:100%; height:100%;" frameborder="10"></iframe>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66520047-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66520047-4');
+</script>
