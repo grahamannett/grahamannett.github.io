@@ -19,7 +19,7 @@ test:
   - master
 pages:
   script:
-  - /usr/bin/hugo -d public/ --buildDrafts=false
+  - /usr/bin/hugo --config config.toml -d public/
   artifacts:
     paths:
     - public

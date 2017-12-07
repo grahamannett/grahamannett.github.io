@@ -1,9 +1,17 @@
-baseURL = "http://grahamannett.me/"
+baseURL = "/"
 languageCode = "en-us"
 title = "grahamannett"
+theme = "hugo-xmin"
 copyright = "🤧"
 
-theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+canonifyurls = true
+relativeURLs = false
 
 [params]
     footer = "[contact me](mailto:graham.annett@gmail.com)"
@@ -18,13 +26,13 @@ theme = "hugo-xmin"
     weight = 1
 [[menu.main]]
     name = "about"
-    url = "/about/"
+    url = "/about"
     weight = 2
 [[menu.main]]
     name = "resume"
-    url = "/resume/"
+    url = "/resume"
     weight = 3
 [[menu.main]]
     name = "other"
-    url = "/other/"
+    url = "/other"
     weight = 10
