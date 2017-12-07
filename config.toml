@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://besiktas.gitlab.io/grahamannnett.me/"
 languageCode = "en-us"
 title = "grahamannett"
 theme = "hugo-xmin"

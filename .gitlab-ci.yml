@@ -8,7 +8,7 @@ test:
 
 pages:
   script:
-  - hugo
+  - hugo --config config.toml -d public/
   artifacts:
     paths:
     - public
