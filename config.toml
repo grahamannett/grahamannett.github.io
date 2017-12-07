@@ -4,8 +4,7 @@ title = "hey!"
 theme = "hugo-xmin"
 copyright = "🤧"
 
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-66520047-4"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
