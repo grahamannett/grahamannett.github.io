@@ -5,10 +5,11 @@ title: 😈
 hey.  i am graham annett.  i am interested in maths, machine learning, and software engineering.  i like to ski, climb, play chess.
 
 --- 
+## links:
 
-## [gitlab](https://gitlab.com/besiktas/)
+### [my gitlab](https://gitlab.com/besiktas/)
 
-##[github](https://github.com/grahamannett/)
+### [my github](https://github.com/grahamannett/)
 
 ---
 

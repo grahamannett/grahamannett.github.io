@@ -1,7 +1,3 @@
----
-title: home
-author: graham
----
 
 # projects
 
