@@ -1,5 +1,4 @@
 ---
-title: 😈
 ---
 
 hey.  i am graham annett.  i am interested in maths, machine learning, and software engineering.  i like to ski, climb, play chess.

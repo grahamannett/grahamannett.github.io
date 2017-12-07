@@ -1,4 +1,15 @@
+{{ if isset .Params "fullpage" }}
+
+{{ partial "fullpage_header.html" . }}
+<main>
+{{ .Content }}
+</main>
+{{ partial "foot_custom.html" . }}
+
+{{else}}
+
 {{ partial "header.html" . }}
+
 {{ if .Params.title }}
 <div class="article-meta">
 <h1><span class="title">{{ .Title }}</span></h1>
@@ -6,7 +17,9 @@
 {{ if .Params.date }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
 </div>
 {{ end }}
+
 <main>
 {{ .Content }}
 </main>
 {{ partial "footer.html" . }}
+{{ end }}
