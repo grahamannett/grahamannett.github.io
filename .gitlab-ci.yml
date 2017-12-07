@@ -1,0 +1,27 @@
+image: alpine:3.6
+before_script:
+  - apk update && apk add --update openssl wget
+  # Install Pygments for syntax highlighting
+  # https://gitlab.com/gitlab-com/support-forum/issues/1150#note_16763556
+  - apk add py-pygments
+  - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz --no-check-certificate
+  - tar xf hugo_0.17_Linux-64bit.tar.gz && cp hugo_0.17_linux_amd64/hugo_0.17_linux_amd64 /usr/bin/hugo
+  # Populate the refined theme dir by cloning from its git repo
+  - apk add git
+  - git submodule init
+  - git submodule update --force
+  - hugo version
+
+test:
+  script:
+  - hugo
+  except:
+  - master
+pages:
+  script:
+  - /usr/bin/hugo -d public/ --buildDrafts=false
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

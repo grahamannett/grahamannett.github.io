@@ -33,4 +33,4 @@ novel ideas for generative neural networks including:
       + long before i had much knowledge or even knew what deep learning was, did a project based on mathematical modeling of neural systems.  
 
 ### econ
-- [mathematica notebook on heston model](schoolprojects/HestonModel.pdf)
+- [mathematica notebook on heston model](files/HestonModel.pdf)
