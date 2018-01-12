@@ -14,6 +14,10 @@ relativeURLs = false
 
 [params]
     footer = "[contact me](mailto:graham.annett@gmail.com)"
+[params.contact]
+    contact = "[contact me](mailto:graham.annett@gmail.com)"
+
+
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
@@ -35,7 +39,3 @@ relativeURLs = false
     name = "other"
     url = "/other"
     weight = 10
-[[menu.main]]
-    name = "contact me"
-    url = "[contact me](mailto:graham.annett@gmail.com)"
-    weight = 20
