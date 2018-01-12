@@ -13,11 +13,7 @@ canonifyurls = true
 relativeURLs = false
 
 [params]
-    footer = "[contact me](mailto:graham.annett@gmail.com)"
-[params.contact]
     contact = "[contact me](mailto:graham.annett@gmail.com)"
-
-
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"

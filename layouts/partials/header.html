@@ -15,7 +15,11 @@
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
-      <li><a href="mailto:graham.annett@gmail.com">contact me!</a></li>
+
+      {{ with .Site.Params.contact }}
+
+      {{ . | markdownify }}
+      {{ end }}
 
     </ul>
     <hr/>
