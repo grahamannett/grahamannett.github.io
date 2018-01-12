@@ -35,3 +35,7 @@ relativeURLs = false
     name = "other"
     url = "/other"
     weight = 10
+[[menu.main]]
+    name = "contact me"
+    url = "[contact me](mailto:graham.annett@gmail.com)"
+    weight = 20
