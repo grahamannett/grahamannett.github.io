@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
+
+  <script type="text/javascript">
+  var host = "grahamannett.me"
+  var host_gl = "grahamannett.gitlab.io"
+      if (((host == window.location.host) || (host_gl == window.location.host)) && (window.location.protocol != 'https:')) {
+      window.location = window.location.toString().replace(/^http:/, "https:");
+    }
+  </script>
   </head>
 
   <body>
