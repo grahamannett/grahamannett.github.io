@@ -5,6 +5,12 @@ test:
   except:
   - master
 
+before_script:
+  - echo 'SDAFSADFSDAF SDAFDSAF' > r.txt
+
+after_script:
+  - cat r.txt
+
 pages:
   script:
   - hugo --config config.toml -d public/
