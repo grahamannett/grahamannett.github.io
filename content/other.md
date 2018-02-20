@@ -3,7 +3,7 @@
 _note: none of these are actually my sites anymore, were free domains i previously had used_
 
 - [birdflu.ml](http://birdflu.ml/)
-- [practice.gq](http://practice.gq/)
+- [practice.gq](http://practice.gq/) → [practice.fyi](http://practice.fyi/)
 - [thespot.ml](http://thespot.ml/)
 
 ---
